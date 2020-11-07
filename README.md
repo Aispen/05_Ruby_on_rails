@@ -1,25 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+5 užduotis
+Parašyti statinį (nenaudojant input formų logikos ar duomenų bazės) tinklalapį. Tinklapio turinį pasirinkite savo nuožiūra. 
 
-Things you may want to cover:
+Privalo būti:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Mažiausiai 4 skirtingi puslapiai;
+* Visi puslapiai pasiekiami navigacijos menu pagalba, kuri aprašyta viename iš layouts failų;
+* Mažiausiai 2 skirtingi Controller (NEįskaitnat application_controller.rb);
+* Įgyvendintas dizainas (pavyzdžiui W3.CSS);
+* Logiškai panaudotas "before_action";
+* Rašomas nepasikartojantis kodas (DRY).
 # testapprails
