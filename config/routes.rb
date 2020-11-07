@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root "pages#show", page: "home"
+  
+  match '/home', to: 'pages#home', via: 'get'
+  match '/cat', to: 'another#cat', via: 'get'
+  match '/dog', to: 'pages#dog', via: 'get'
+  match '/about', to: 'pages#about', via: 'get'
 end
